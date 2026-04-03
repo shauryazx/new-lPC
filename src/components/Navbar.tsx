@@ -46,16 +46,9 @@ export default function Navbar() {
             <Link to="/" className="flex items-center space-x-2">
               <div className="flex items-center justify-center w-12 h-12">
                 <img 
-                  src="/logo.png" 
+                  src="/logo.png?v=1" 
                   alt="Laxmidhar Polytechnic College Logo" 
                   className="w-full h-full object-contain"
-                  onError={(e) => {
-                    // Fallback to icon if logo doesn't exist yet
-                    e.currentTarget.style.display = 'none';
-                    const icon = document.createElement('div');
-                    icon.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#1e3a8a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-graduation-cap"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>';
-                    e.currentTarget.parentElement?.appendChild(icon.firstChild as Node);
-                  }}
                 />
               </div>
               <div className="flex flex-col">
