@@ -3,7 +3,7 @@
   "trailingSlash": false,
   "rewrites": [
     {
-      "source": "/((?!api|.*\\..*).*)",
+      "source": "/((?!api|_next/static|_next/image|favicon.ico|.*\\..*).*)",
       "destination": "/index.html"
     }
   ]
