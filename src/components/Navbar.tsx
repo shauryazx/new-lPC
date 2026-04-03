@@ -46,7 +46,7 @@ export default function Navbar() {
             <Link to="/" className="flex items-center space-x-2">
               <div className="flex items-center justify-center w-12 h-12">
                 <img 
-                  src="/logo.png?v=1" 
+                  src="/college-logo.png" 
                   alt="Laxmidhar Polytechnic College Logo" 
                   className="w-full h-full object-contain"
                 />
