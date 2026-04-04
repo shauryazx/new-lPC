@@ -13,7 +13,7 @@ export default function DisclosurePage() {
       title: "Regulatory Approval",
       icon: ShieldCheck,
       documents: [
-        { name: "Extension of Approval (EOA) Report 2025-26", filename: "EOA-Report-2025-26.pdf" },
+        { name: "Extension of Approval (EOA) Report 2025-26", filename: "EOA_Report_New.pdf" },
       ]
     },
     {
